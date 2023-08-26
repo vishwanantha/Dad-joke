@@ -14,11 +14,12 @@ function getDefinition() {
           h1 = document.createElement("h2");
           h4 = document.createElement("h4");
           p = document.createElement("p");
+          hr = document.createElement("hr");
          
           h1.innerHTML = "Defination:";
-          h4.innerHTML = "wordDefination";
-          p.innerHTML = "wordExample";
-          wordMeaning.append(h1, h2, h4, p,);
+          h4.innerHTML = wordDefination;
+          p.innerHTML = wordExample;
+          wordMeaning.append(h1, hr, h4, p,);
         });
       });
     })
